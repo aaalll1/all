@@ -1,0 +1,31 @@
+services:
+  - type: web
+    plan: free
+    name: joker
+    env: python
+    buildCommand: pip install -U -r requirements.txt
+    startCommand: gunicorn ser:app & bash start
+    region: frankfurt
+    envVars:
+      - key: API_ID
+        value: 40e7041d06ea7b6ee1cf39b3188b3452
+      - key: API_HASH
+        value: 9514755
+      - key: BOT_TOKEN
+        value: 7280847617:AAGg6zO5er3H0EmPPqemCUOJKoIrhkf282s
+      - key: STRING_SESSION
+        value: 1ApWapzMBuxrwiC76MF7vpmh3pcX4fzA1kRZjUOfconjmMSv3nwsuWMK1vGh-4BB6-m64qeHuL8BpYdT4MU8pItbjdQ9LsIyxG9dH8LjSXv4cqHGXRPmxESjcL7Vc1xzvg_FSlJUoDLtzMUpSbWmJejHMRtZ4Oik2XPQyMt69ZXatZjR4aC1a7XHIs16yVroE74r46jxg0H1Ea9NVeSOUTuWOUn-k2jGy7hZCdlt-566-5JoyOjqsU4OmtCB8-5rfAJFz8ulzSL8SByk9Bvz_EHxDwTNn-A4yntfSe6pPpsK3kctTooj3rnzYFwgbm0txkBCZPLzGi-gXU2YpEiVh-hEVKV9yhHk=
+      - key: BOT_USERNAME
+        value: sbdjdhbot
+      - key: SUDO_USERS
+        value: 7275336620
+      - key: GROUP
+        value: sjdjdbdjfk
+      - key: NETWORK
+        value: sjdjdbdjfk
+      - key: MONGODB_URL
+        value: mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority
+      - key: BOT_NAME
+        value: muntazer
+      - key: OWNER_ID
+        value: 7275336620

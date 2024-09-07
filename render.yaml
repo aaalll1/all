@@ -12,11 +12,11 @@ services:
       - key: API_HASH
         value: 9514755
       - key: BOT_TOKEN
-        value: 7280847617:AAGg6zO5er3H0EmPPqemCUOJKoIrhkf282s
+        value: 7265643398:AAHRYouYIq974Xb90YBHEzq73tS6Dud_BlY
       - key: STRING_SESSION
         value: 1ApWapzMBuxrwiC76MF7vpmh3pcX4fzA1kRZjUOfconjmMSv3nwsuWMK1vGh-4BB6-m64qeHuL8BpYdT4MU8pItbjdQ9LsIyxG9dH8LjSXv4cqHGXRPmxESjcL7Vc1xzvg_FSlJUoDLtzMUpSbWmJejHMRtZ4Oik2XPQyMt69ZXatZjR4aC1a7XHIs16yVroE74r46jxg0H1Ea9NVeSOUTuWOUn-k2jGy7hZCdlt-566-5JoyOjqsU4OmtCB8-5rfAJFz8ulzSL8SByk9Bvz_EHxDwTNn-A4yntfSe6pPpsK3kctTooj3rnzYFwgbm0txkBCZPLzGi-gXU2YpEiVh-hEVKV9yhHk=
       - key: BOT_USERNAME
-        value: sbdjdhbot
+        value: shidhrbot
       - key: SUDO_USERS
         value: 7275336620
       - key: GROUP
